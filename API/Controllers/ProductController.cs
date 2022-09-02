@@ -30,12 +30,11 @@ namespace API.Controllers
         {
             var countSpec = new ProductsFilterCount(productParams);
             var spec = new ProductsWithBrandsSpecifications(productParams);
-            var products = await _unitOfWork.Repository<Product>().GetListWithSpecAsync(spec);// await _productRepository.ListAsync(spec);//.GetAllAsync();
+            var products = await _unitOfWork.Repository<Product>().GetListWithSpecAsync(spec);
             var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductDto>>(products);
-            var productsCount = await _unitOfWork.Repository<Product>().CountAsync(countSpec);//_productRepository.CountAsync(countSpec);
+            var productsCount = await _unitOfWork.Repository<Product>().CountAsync(countSpec);
 
-            Product product = null;
-            product.Description = "";
+
             return Ok(new Pagination<ProductDto>(productParams.PageIndex,
                 productParams.PageSize, data, productsCount));
         }
@@ -46,7 +45,7 @@ namespace API.Controllers
         public async Task<ActionResult<ProductDto>> GetProduct(int id)
         {
             var spec = new ProductsWithBrandsSpecifications(id);
-            var product = await _unitOfWork.Repository<Product>().GetEntityWithSpecAsync(spec);// _productRepository.GetEntityWithSpec(spec);//.GetByIdAsync(id);
+            var product = await _unitOfWork.Repository<Product>().GetEntityWithSpecAsync(spec);
 
             if (product == null) return NotFound(new ApiResponse(404));
 
