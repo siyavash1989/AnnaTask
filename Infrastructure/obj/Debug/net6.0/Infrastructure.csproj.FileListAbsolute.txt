@@ -1,0 +1,15 @@
+F:\Task\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+F:\Task\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+F:\Task\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+F:\Task\Infrastructure\bin\Debug\net6.0\Core.dll
+F:\Task\Infrastructure\bin\Debug\net6.0\Core.pdb
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+F:\Task\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+F:\Task\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+F:\Task\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
