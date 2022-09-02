@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Task\\api\\API.csproj": {}
+    "F:\\Task\\API\\API.csproj": {}
   },
   "projects": {
-    "F:\\Task\\api\\API.csproj": {
+    "F:\\Task\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Task\\api\\API.csproj",
+        "projectUniqueName": "F:\\Task\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "F:\\Task\\api\\API.csproj",
+        "projectPath": "F:\\Task\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "F:\\Task\\api\\obj\\",
+        "outputPath": "F:\\Task\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

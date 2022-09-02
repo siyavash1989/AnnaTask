@@ -27,6 +27,12 @@ namespace Infrastructure.Services
             _context.Set<T>().Remove(entity);
         }
 
+        public async Task DeleteAsync(int id)
+        {
+            var entity = await GetByIdAsync(id);
+            _context.Set<T>().Remove(entity);
+        }
+
         public async Task<IReadOnlyList<T>> GetAllAsync()
         {
             return await _context.Set<T>().ToListAsync();            
@@ -51,6 +57,11 @@ namespace Infrastructure.Services
         {
             _context.Set<T>().Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
+        }
+
+        public Task<T> UpdateAsync(T entity)
+        {
+            throw new NotImplementedException();
         }
 
         private IQueryable<T> ApplySpecification(ISpecification<T> spec)

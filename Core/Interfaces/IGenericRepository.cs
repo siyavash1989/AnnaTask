@@ -14,5 +14,8 @@ namespace Core.Interfaces
         void Add(T entity);
         void Update(T entity);
         void Delete(T entity);
+
+        Task<T> UpdateAsync(T entity);
+        Task DeleteAsync(int id);
     }
 }
